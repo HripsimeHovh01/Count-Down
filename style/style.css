@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#countdown {
+    font-size: 24px;
+    margin: 20px;
+}
+
+button {
+    background-color: #39189c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #623bd7;
+}
+
+/* button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+} */
